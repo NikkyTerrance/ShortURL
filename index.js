@@ -19,7 +19,7 @@ app.listen(PORT, ()=> console.log(`server started in port: ${PORT}`));
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-    origin : ['http://localhost:3000','https://zomely.netlify.app'],
+    origin : ['http://localhost:3000','https://zomely.netlify.app','https://zomeely.onrender.com'],
     optionsSuccessStatus: 200,
     credentials: true
 }));
